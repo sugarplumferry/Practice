@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace LeetCodeConsole
+namespace LeetCodeConsole.inteface
 {
-    public class Solution implents ISolution
+    public interface ISolution
     {
-        
+        int MinDeletions(string s);
     }
 }
